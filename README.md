@@ -1,5 +1,4 @@
 # Table of Contents
 
-- [Git](./git.md)
-- [Linux Command](./linux.md)
-- [Web Fundamentals]()
+- [Computer Science Fundamentals](./cs-fundamentals/cs-fundamentals-contents.md)
+- [Linux](./linux/linux-contents.md)
