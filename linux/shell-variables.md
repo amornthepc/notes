@@ -2,13 +2,12 @@
 
 Shell (_bash_ and _zsh_) are powerful programming language, They have variables to store and reference data, along with other features like function, loop and more.
 
-## There are 3 Types of Shell Variables
+## There are 2 Types of Shell Variables
 
-In a shell environment, variables are split into 3 types based on how they are used and who can access them:
+In a shell environment, variables are split into **2 types based** on their scope (who can access them).
 
 1. **[Local Variables](./local-variables.md)**
 2. **[Environment Variables](./environment-variables.md)**
-3. **[PATH Variables](./path-variables.md)**
 
 ## The Core Syntax Rules for Shell Variables
 

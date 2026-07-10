@@ -1,4 +1,4 @@
-# `rm` (_Remove_)
+# `rm` (_Remove_) command
 
 `rm` (_remove_) command is used to deletes a file, To delete a directory **must use the `-r` flag**
 

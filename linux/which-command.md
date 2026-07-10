@@ -1,4 +1,4 @@
-# `which`
+# `which` command
 
 `which` command is used to display _the location_ (full path) of an installed command line program.
 

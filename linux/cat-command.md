@@ -1,4 +1,4 @@
-# `cat` (_Concatenate_)
+# `cat` (_Concatenate_) command
 
 `cat` (_concatenate_) command is used to view the contents of a file by display them in the terminal. It accepts file names as an argument (and can take more than one).
 

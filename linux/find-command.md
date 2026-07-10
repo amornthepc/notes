@@ -1,4 +1,4 @@
-# `find` (_Find_)
+# `find` (_Find_) command
 
 `find` command is mostly used to search for files and directories by name from a specific directory, not by their text contents. — **It will do a recursive search automatically** down through all sub-directories.
 

@@ -1,4 +1,4 @@
-# `expr` (_Expression_)
+# `expr` (_Expression_) command
 
 `expr` (expression) command used to evaluate a given expression and print the result directly to terminal (`stdout`).
 

@@ -1,4 +1,4 @@
-# `cd` (_Change Directory_)
+# `cd` (_Change Directory_) command
 
 `cd` (_change directory_) command is used to move into a specified directory—changing your current working directory.
 

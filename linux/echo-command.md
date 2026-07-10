@@ -1,4 +1,4 @@
-# `echo`
+# `echo` command
 
 `echo` command used to print specified text or variables to standard output (`stdout`)
 

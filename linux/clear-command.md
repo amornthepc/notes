@@ -1,4 +1,4 @@
-# `clear`
+# `clear` command
 
 `clear` command is used to clear the text on terminal screen without _deleting_ command history,
 

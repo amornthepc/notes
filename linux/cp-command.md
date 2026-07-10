@@ -1,4 +1,4 @@
-# `cp` (_Copy_)
+# `cp` (_Copy_) command
 
 `cp` (_copy_) command is used to copy a file from one location to another. To copy a directory and all of its contents, you **must use the `-r` flag**.
 

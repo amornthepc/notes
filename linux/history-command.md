@@ -1,4 +1,4 @@
-# `history`
+# `history` command
 
 `history` command is used to display a list of previously executed commands that you've typed in your shell.
 

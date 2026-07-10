@@ -1,4 +1,4 @@
-# `head` and `tail`
+# `head` and `tail` commands
 
 Sometime we don't want to print everything in a file (the file might be too big), and we just want to look at some part of it.
 

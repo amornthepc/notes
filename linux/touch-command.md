@@ -1,4 +1,4 @@
-# `touch`
+# `touch` command
 
 `touch` command is mostly used to create new empty files with given file names, _only if it does not already exist._
 

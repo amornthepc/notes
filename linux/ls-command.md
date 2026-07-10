@@ -1,4 +1,4 @@
-# `ls` (_List_)
+# `ls` (_List_) command
 
 `ls` (_list_) command is used to list the contents of a directory — By default if no directory provided, it will list contents of the current working directory (`.`).
 

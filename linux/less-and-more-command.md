@@ -1,4 +1,4 @@
-# `less` and `more`
+# `less` and `more` commands
 
 `less` and `more` command are used to view the contents of a file in interactive mode.
 

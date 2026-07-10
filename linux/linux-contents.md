@@ -2,13 +2,24 @@
 
 - [Terminal](./terminal.md)
 - [Shell](./shell.md)
+  - [Shell Configuration File](shell-configuration-file.md)
+  - [Globbing (Shell Wildcards)](globbing.md)
   - [Shell Variables](./shell-variables.md)
+    - [Local Variables](./local-variables.md)
+    - [Environment Variables](environment-variables.md)
+      - [Practical Tips for Environment Variables](environment-variables-tips.md)
+      - [Common Built-in Environment](common-built-in-environment-variables.md)
+      - [PATH variable](/linux/path-variable.md)
   - [Shell Program](./shell-program.md)
   - [Shell Script](./shell-script.md)
 - [Executable File](./executable-file.md)
 - [Prompt vs Output](prompt-vs-output.md)
 - [CLI vs GUI](cli-vs-gui.md)
 - [Shebang](./shebang.md)
+
+- [Process](./process.md)
+  - [Isolated Process](./isolated-process.md)
+  - [Process ID (PID)](./process-id.md)
 
 ## Command Line
 
@@ -31,6 +42,10 @@
 - [`grep` command](grep-command.md)
 - [`find` command](./find-command.md)
 - [`which` command](./which-command.md)
+- [`env` command](./env-command.md)
+- [`export` command](./export-command.md)
+- [`unset` command](./unset-command.md)
+- [`source` command](./source-command.md)
 
 ## Filesystem
 
