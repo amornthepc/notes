@@ -2,6 +2,10 @@
 
 `echo` command used to print specified text or variables to standard output (`stdout`)
 
+```bash
+echo [OPTION]... [STRING]...
+```
+
 ## Practical Reference:
 
 - **Print Text**:

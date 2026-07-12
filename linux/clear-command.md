@@ -5,5 +5,9 @@
 You can also trigger this action instantly by pressing `Ctrl + l`.
 
 ```bash
+clear [OPTION]...
+```
+
+```bash
 clear
 ```

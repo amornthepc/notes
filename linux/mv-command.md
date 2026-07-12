@@ -1,4 +1,4 @@
-# `mv` (_Move_) command
+# `mv` (Move) command
 
 `mv` (_move_) command is used to **moves a file or directory from one location to another** — You can also use it to **rename file/directory**, or rename it while moving its location all in one command.
 

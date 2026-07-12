@@ -3,10 +3,16 @@
 `whoami` command is used to print the username of the current logged-in user to the terminal (`stdout`).
 
 ```bash
-amornthepc:~$ whoami
-amornthep
+whoami [OPTION]...
+```
 
-amornthepc:~$ sudo su
-root:~# whoami
-root
+**Example**:
+
+```bash
+whoami
+# amornthep
+
+sudo su
+whoami
+# root
 ```

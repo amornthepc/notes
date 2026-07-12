@@ -4,7 +4,7 @@
 
 ## Practical Use Case
 
-When you update or add a new shortcut (alias) or new environment variable to your shell configuration file (`~/.bashrc` or `~/.zshrc`), the current terminal doesn't know about it yet — You need to either re-open terminal or running `source` command to forces the terminal to reload that file and activate your changes immediately.
+When you update or add a new shortcut (alias) or new environment variable to your shell configuration file (`~/.bashrc` or `~/.zshrc`), the current terminal doesn't know about it yet — If you want to use whatever was update immediately, you need to either re-open terminal or running `source` command.
 
 ```bash
 # Apply changes to bash instantly

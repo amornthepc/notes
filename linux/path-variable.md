@@ -41,9 +41,43 @@ This means your shell will look into all these directories for executable progra
 - `/sbin`
 - `/home/amornthep/.nvm/versions/node/v24.14.0/bin`
 
+## Adding New Directories to `PATH`
+
+A common problem when installing new programs is getting a `command not found` error, right after try to use the program, Most of the time, this happens because the directory containing the program hasn't been added to [`PATH` variable](./path-variable.md).
+
+> [!NOTE]
+> Modern installers usually setup the path directory automatically, so you rarely have to add them manually.
+
+### How to Add a New Directory Path
+
+To add a new directory to your `PATH` without replacing or deleting the existing system paths, use the `export` command to assign the variable, `:` to append and separate paths, and `$` for reference the current value of the `$PATH` variable.
+
+```bash
+# Syntax: export PATH="$PATH:/path/to/new/directory"
+
+export PATH="$PATH:~/workspace/bin"
+```
+
+- `export` — Assigns or updates the environment variable value.
+- `$PATH` — References the current value (list of directories) of the `PATH` variable so you don't overwrite them.
+- `:` — The separator character used to append the new directory path to the end of the existing list.
+
+> [!WARNING]
+> Running command directly in terminal will only changes your `PATH` **temporarily** for current terminal session, The moment you close and re-open the terminal, your new path is lost.
+
+#### Making the New Path Permanent
+
+To make new directory path that appended to the `PATH` variable stay forever, you must follow the steps to save it inside your shell configuration.
+
+- See ➡️: [Make Environment Variables Persist](/linux/environment-variables-tips.md#making-environment-variables-persist)
+
 ---
 
 ## Related
 
 - [Environment Variables](./environment-variables.md)
+- [Tips: Environment Variables](./environment-variables-tips.md)
 - [Built-in Environment Variables](/linux/environment-variables.md#built-in-environment-variables)
+- [`PATH` variable](./path-variable.md)
+- [Shell Configuration File](./shell-configuration-file.md)
+- [`source` command](./source-command.md)

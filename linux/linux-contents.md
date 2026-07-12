@@ -23,13 +23,13 @@
 
 ## Command Line
 
-- [echo command](./echo-command.md)
-- [expr command](./expr-command.md)
-- [whoami command](./whoami-command.md)
-- [history command](./history-command.md)
-- [clear command](./clear-command.md)
-- [pwd command](./pwd-command.md)
-- [ls command](ls-command.md)
+- [`echo` command](./echo-command.md)
+- [`expr` command](./expr-command.md)
+- [`whoami` command](./whoami-command.md)
+- [`history` command](./history-command.md)
+- [`clear` command](./clear-command.md)
+- [`pwd` command](./pwd-command.md)
+- [`ls` command](ls-command.md)
 - [`cd` command](./cd-command.md)
 - [`cat` command](./cat-command.md)
 - [`head` and `tail` command](head-and-tail-command.md)
@@ -46,6 +46,12 @@
 - [`export` command](./export-command.md)
 - [`unset` command](./unset-command.md)
 - [`source` command](./source-command.md)
+- [`wc` command](./wc-command.md)
+
+### Flags
+
+- [Flags (Options)](./flags.md)
+- [help option](help-option.md)
 
 ## Filesystem
 
