@@ -1,12 +1,14 @@
 # `mv` (Move) command
 
-`mv` (_move_) command is used to **moves a file or directory from one location to another** — You can also use it to **rename file/directory**, or rename it while moving its location all in one command.
+`mv` (_move_) command is used to **moves a file or directory from one location to another** — You can also use it to **rename file or directory**, or **rename it while moving its location** all in one command.
+
+**Syntax**:
+
+```bash
+mv <source-path> <destination-path>
+```
 
 ## Moving A File
-
-```
-mv <path-to-target-file/directory> <path-to-new-location>
-```
 
 Moving a file from the current directory to another nested directory:
 
@@ -20,18 +22,19 @@ Moving a file from current working directory, to the parent directory:
 mv some_file.txt ../some_file.txt
 ```
 
-If you don't want to rename the file and just want to move it to different location, you can _omit_ the file name:
-
-```bash
-mv some_file.txt some_directory/
-```
+> [!TIP]
+> If you don't want to rename the file and _just want to move it to different location_, you can **omit** the file name
+>
+> ```bash
+> mv some_file.txt some_directory/
+> ```
 
 ## Rename A File
 
 ```
 mv <current-name> <new-name>
 # or
-mv <path-to-target-file/directory> <path-to-new-location-and-new-name>
+mv <target-file/dir-path> <path-to-new-location-and-new-name>
 ```
 
 Renaming a file in the current working directory:

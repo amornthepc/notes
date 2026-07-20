@@ -2,9 +2,13 @@
 
 `find` command is mostly used to search for files and directories by name from a specific directory, not by their text contents. — **It will do a recursive search automatically** down through all sub-directories.
 
+**Syntax**: Most common use syntax
+
 ```
-find <target-directory> -name "<search-name>"
+find <target-directory-to-search> -name "<search-pattern>"
 ```
+
+By default, if you don't specify the `-type` option, `find` will search for **both files and directories** that match the name.
 
 > [!NOTE]
 > **Actually**: `find` searches based on file _metadata_ (attributes like name, type, size, etc), which allows it to support many advanced search features.
@@ -12,16 +16,14 @@ find <target-directory> -name "<search-name>"
 ## Find a File or Directory by Name
 
 ```
-find <target-directory> [-type f|d] -name "<search-name>"
+find <target-directory-to-search> [-type f|d] -name "<search-pattern>"
 ```
-
-By default, if you don't specify the `-type` option, `find` will search for **both** files and directories that match the name.
 
 ```bash
-find some_directory -name cool_name
+find ~/target_directory -name cool_name
 ```
 
-Search for both file and directory named `cool_name` inside `some_directory` directory.
+Search for both file and directory named `cool_name` inside `target_directory` directory.
 
 ### Find a File by Name
 
@@ -43,9 +45,23 @@ To search only for directories, use the `-type d` flag
 find some_directory -type d -name "target_dir"
 ```
 
+## Find a Symbolic Links from Specified Pattern (Reverse Lookup)
+
+Search target directory for [_symlink_](./symbolic-link.md) that linking back to your specified name pattern. — By using `find` command with `-lname` options to
+
+```
+find <target-directory-to-search> -lname "<search-pattern>"
+```
+
+```bash
+find ~ -lname "*dotfiles/config*"
+```
+
+Find _symlinks_ in _home_ directory that points to path contains `dotfiles/config`.
+
 ## Pattern Search
 
-`find` command can use wildcard matching to search for files or directories.
+`find` command use [glob pattern](./globbing.md) to search for files or directories.
 
 - `*` — matches zero or more of any character (e.g. `*.txt`)
 - `?` — matches exactly one character (e.g. `file?.txt`)

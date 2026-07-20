@@ -9,13 +9,14 @@
 You can usually display the help menu in one o three ways:
 
 ```bash
-# Syntax: <command> [options]
+# Syntax: <COMMAND> -h | --help | help
 
 # 1. Long Flag (Most Common)
 grep --help
 
 # 2. Short Flag
 grep -h
+
 
 # 3. Positional Argument (Many command do not support this)
 git help

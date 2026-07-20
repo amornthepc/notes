@@ -1,9 +1,6 @@
-# Shell Configuration File
+# Shell Configuration File — `.bashrc`, `.zshrc`
 
-**Shell Configuration** is a hidden script file located in [home directory (`~`)](./home-directory.md) that runs automatically **every single time you open a new terminal window**.
-
-> [!IMPORTANT]
-> **Shell Configuration** main purpose is to set up terminal environment so it is ready to work immediately.
+**Shell Configuration File** is a hidden script file located in [home directory (`~`)](./home-directory.md) that runs automatically **every single time you start a new shell session**. — Its purpose is to **set up shell environment, _aliases_, _functions_ and _environment variables_** so it is ready to use immediately.
 
 ## Practical Use for Shell Configuration File
 

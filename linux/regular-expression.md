@@ -8,6 +8,8 @@
 | `$`    | Matches the line **ends with** the specified text                   | `grep "sh$"` (Finds lines where sh are the last characters on the line)                                                             |
 | `\`    | **Escapes a character** to turn a special symbol into _plain text_  | `grep "\/"` (Search for a slash `/` character)                                                                                      |
 | `.`    | Matches **any single character** in that position                   | `grep "b.sh"` (Matches `bash`, `bish`, `bush`, etc)                                                                                 |
+| `+`    | Matches **one or more** of the previous character (`<char>+`)       | `a+"` (Matches `a`, `aa`, `aaa`)                                                                                                    |
+| `*`    | Matches **zero or more** of the previous character (`<char>*`)      | `a*"` (Matches ` ` empty string, `a`, `aa`, `aaa`)                                                                                  |
 | `.*`   | Matches **anything zero or more characters** (**Wildcard Pattern**) | `grep "start.*end"` (Matches lines that begin with `start` and end with `later` the middle can be whatever it is or nothing at all) |
 | `[ ]`  | Matches **any one character** inside the brackets                   | `grep "f[aeiou]ck"` (Matches `fack`, `feck`, `fick`, `fock`, `fuck`)                                                                |
 | `[^ ]` | Matches anything **NOT** inside the brackets                        | `grep "[^0-9]"` (Finds lines with non-number characters)                                                                            |

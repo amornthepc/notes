@@ -4,3 +4,8 @@
 
 > [!NOTE]
 > Nowadays, _Terminal_ is really mean _Terminal Emulator_ — a modern desktop app (like Kitty, Windows Terminal, etc) simulating legacy physical terminal hardware.
+
+## Related
+
+- [Terminal Shortcut](./terminal-shortcut.md)
+- [Shell](./shell.md)

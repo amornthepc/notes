@@ -1,6 +1,14 @@
 # `ls` (_List_) command
 
-`ls` (_list_) command is used to list the contents of a directory — By default if no directory provided, it will list contents of the current working directory (`.`).
+`ls` (_list_) command is used to **list the contents of a directory** to [`stdout`](./standard-output.md) — If no directory specified, it **defaults** to the _[current working directory (`.`)](./current-working-directory.md)_.
+
+**Syntax**:
+
+```bash
+ls [option]... [dir]...
+```
+
+**Example**:
 
 ```bash
 ls
@@ -26,4 +34,8 @@ Displays the output in a detailed list, showing its permissions, owner, size, an
 ls -a
 ```
 
-Includes hidden files and directories — those whose names start with a dot (`.`) such as `.bashrc`, `.env`
+List all contents of a directory includes hidden files and directories — those whose names start with a dot (`.`) such as `.bashrc`, `.env`
+
+## Related
+
+- [Flags](./flags.md)

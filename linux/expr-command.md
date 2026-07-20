@@ -2,8 +2,10 @@
 
 `expr` (expression) command used to evaluate a given expression and print the result directly to terminal (`stdout`).
 
+**Syntax**:
+
 ```bash
-expr [OPTION]... <EXPRESSION>
+expr [option]... <expression>
 ```
 
 - You must leave spaces between the _numbers_ and _operators_

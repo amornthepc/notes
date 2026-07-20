@@ -1,12 +1,22 @@
 # `touch` command
 
-`touch` command is mostly used to create new empty files with given file names, _only if it does not already exist._
+`touch` command is mostly used to **create new empty files** at a target filepath. _But only if that file does not already exist_ — otherwise it update the existing file's access and modification timestamps.
+
+**Syntax**:
 
 ```bash
-touch new_file.txt
+touch [option]... <target-file>
 ```
 
-You can create create multiple files at once by listing them:
+**Examples**
+
+Creating a single file:
+
+```bash
+touch ~/workspace/anonymous_app/new_file.js
+```
+
+Creating multiple files at once by listing them:
 
 ```bash
 touch script.js index.html style.css
@@ -14,3 +24,10 @@ touch script.js index.html style.css
 
 > [!NOTE]
 > Technically, this command is meant to update a file's access and modification timestamps, Creating a new empty file is just its side effect when the file isn't there yet.
+
+---
+
+## Related
+
+- [Command Line](./command-line-interface.md)
+- [filepath](./filepath.md)

@@ -2,8 +2,10 @@
 
 `history` command is used to display a list of previously executed commands that you've typed in your shell.
 
+**Syntax**: **Only command**, no option, no argument
+
 ```bash
-history # only command, no option, no argument
+history
 ```
 
 ```bash
